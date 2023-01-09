@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_960253_training_innovate</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 09:04:21</sys_created_on>
+        <sys_id>6d537ef44784211025eafb42e36d43ac</sys_id>
+        <sys_name>x_960253_training_innovate</sys_name>
+        <sys_package display_value="Training" source="x_960253_training">5621bebc4744211025eafb42e36d4325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">5621bebc4744211025eafb42e36d4325</sys_scope>
+        <sys_update_name>ua_table_licensing_config_6d537ef44784211025eafb42e36d43ac</sys_update_name>
+    </ua_table_licensing_config>
+</record_update>

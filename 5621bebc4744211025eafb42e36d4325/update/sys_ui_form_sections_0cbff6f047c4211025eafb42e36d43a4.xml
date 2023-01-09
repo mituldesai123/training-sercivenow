@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0cbff6f047c4211025eafb42e36d43a4" sys_domain="global" table="x_960253_training_innovate" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-26 09:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0bf3af047c4211025eafb42e36d433d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_960253_training_innovate" name="x_960253_training_innovate" sys_domain="global" view="Default view">0cbff6f047c4211025eafb42e36d43a4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_960253_training_innovate" sys_domain="global" view="Default view">f6c47a744784211025eafb42e36d4310</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-26 09:58:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-26 09:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccbf3af047c4211025eafb42e36d433d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_960253_training_innovate" name="x_960253_training_innovate" sys_domain="global" view="Default view">0cbff6f047c4211025eafb42e36d43a4</sys_ui_form>
+            <sys_ui_section caption="My Idea" display_value="My Idea" name="x_960253_training_innovate" sys_domain="global" view="Default view">80bff6f047c4211025eafb42e36d43a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-26 09:58:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_960253_training_innovate</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-26 09:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cbff6f047c4211025eafb42e36d43a4</sys_id>
+            <sys_name>x_960253_training_innovate</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Training" source="x_960253_training">5621bebc4744211025eafb42e36d4325</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training">5621bebc4744211025eafb42e36d4325</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0cbff6f047c4211025eafb42e36d43a4</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

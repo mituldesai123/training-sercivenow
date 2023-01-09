@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Find and Close Long Overdue NeedIt Tasks</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-01-06 08:45:32</run_start>
+        <run_time>1970-01-01 08:05:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[ var howLongToClose = gs.getProperty('x_960253_training.autoCloseOverdue');
+    
+  // Query the database for NeedIt Task records with Due date field
+  // values older the number of days set in the x_58872_needit.autoCloseOverdue
+  // Application Property.  Only return NeedIt Task records have a State value of
+  // Open or Work in progress.  Close the NeedIt Tasks and update
+  // the NeedIt Task Work notes.
+  var overdueNITasks = new GlideRecord('x_960253_training_innovate');
+  overdueNITasks.addQuery('due_date','<=',gs.daysAgo(howLongToClose));
+  overdueNITasks.addQuery('state','<',3);
+    
+  overdueNITasks.query();
+ while(overdueNITasks.next()){
+    gs.info("Auto close NeedIt Task record = " + overdueNITasks.number);
+    overdueNITasks.work_notes = "Record closed because it was too far past the Due date.";
+    overdueNITasks.state = 4;
+    overdueNITasks.update();
+  }]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 08:54:32</sys_created_on>
+        <sys_id>5988dbd84790211025eafb42e36d4395</sys_id>
+        <sys_name>Find and Close Long Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="Training" source="x_960253_training">5621bebc4744211025eafb42e36d4325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">5621bebc4744211025eafb42e36d4325</sys_scope>
+        <sys_update_name>sysauto_script_5988dbd84790211025eafb42e36d4395</sys_update_name>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

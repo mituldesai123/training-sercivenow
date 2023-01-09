@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_960253_training.employee" name="x_960253_training.employee">e9713ef04784211025eafb42e36d43ae</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 08:56:09</sys_created_on>
+        <sys_id>ad713ef04784211025eafb42e36d43b0</sys_id>
+        <sys_name>e9713ef04784211025eafb42e36d43ae</sys_name>
+        <sys_package display_value="Training" source="x_960253_training">5621bebc4744211025eafb42e36d4325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">5621bebc4744211025eafb42e36d4325</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ad713ef04784211025eafb42e36d43b0</sys_update_name>
+    </sys_embedded_help_role>
+</record_update>

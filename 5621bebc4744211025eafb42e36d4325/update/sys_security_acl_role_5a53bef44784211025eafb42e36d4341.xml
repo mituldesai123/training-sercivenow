@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 09:04:24</sys_created_on>
+        <sys_id>5a53bef44784211025eafb42e36d4341</sys_id>
+        <sys_name>x_960253_training_innovate.x_960253_training.employee</sys_name>
+        <sys_package display_value="Training" source="x_960253_training">5621bebc4744211025eafb42e36d4325</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training">5621bebc4744211025eafb42e36d4325</sys_scope>
+        <sys_security_acl display_value="x_960253_training_innovate">9653bef44784211025eafb42e36d433f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5a53bef44784211025eafb42e36d4341</sys_update_name>
+        <sys_user_role display_value="x_960253_training.employee" name="x_960253_training.employee">e9713ef04784211025eafb42e36d43ae</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
